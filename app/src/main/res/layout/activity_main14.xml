@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hemant.firstpage.Main14Activity"
+    android:background="@drawable/app">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView6"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/arrow"
+                android:text="@string/Mutb"
+                android:id="@+id/bt69"
+                android:onClick="Qbtn69"
+                android:textColor="@color/aaaaaa"
+                android:textAlignment="textStart"
+                android:paddingStart="10dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/arrow"
+                android:text="@string/Vegp"
+                android:id="@+id/bt70"
+                android:onClick="Qbtn70"
+                android:textColor="@color/aaaaaa"
+                android:textAlignment="textStart"
+                android:paddingStart="10dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/arrow"
+                android:text="@string/Zeer"
+                android:id="@+id/bt71"
+                android:onClick="Qbtn71"
+                android:textColor="@color/aaaaaa"
+                android:textAlignment="textStart"
+                android:paddingStart="10dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/arrow"
+                android:text="@string/Ster"
+                android:id="@+id/bt72"
+                android:onClick="Qbtn72"
+                android:textColor="@color/aaaaaa"
+                android:textAlignment="textStart"
+                android:paddingStart="10dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/arrow"
+                android:text="@string/Chib"
+                android:id="@+id/bt73"
+                android:onClick="Qbtn73"
+                android:textColor="@color/aaaaaa"
+                android:textAlignment="textStart"
+                android:paddingStart="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

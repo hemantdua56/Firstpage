@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.hemant.firstpage.MainActivity"
+    android:accessibilityLiveRegion="none"
+    android:layoutMode="opticalBounds"
+    android:background="@drawable/app">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="ROOM NO."
+        android:accessibilityLiveRegion="none"
+        android:bufferType="spannable"
+        android:height="70dp"
+        android:layout_above="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/abcd"
+        android:textColorHint="@color/abcd" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_gravity="center_horizontal"
+        android:hint="PASSWORD"
+        android:layout_alignWithParentIfMissing="false"
+        android:height="70dp"
+        android:layout_above="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginBottom="45dp"
+        android:textColorHint="@color/abcd"
+        android:textColor="@color/abcd" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:id="@+id/button"
+        android:textSize="30dp"
+        android:translationZ="40dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/aaaaaa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO MOTEL ROOM SERVICES"
+        android:id="@+id/textView"
+        android:layout_above="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:theme="@style/Theme.AppCompat.CompactMenu"
+        android:textColor="@color/abcd"
+        android:textAlignment="center" />
+
+</RelativeLayout>

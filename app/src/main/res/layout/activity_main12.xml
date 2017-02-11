@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hemant.firstpage.Main12Activity"
+    android:background="@drawable/app">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView5" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/arrow"
+                android:text="@string/Chic"
+                android:id="@+id/bt50"
+                android:onClick="Qbtn50"
+                android:textColor="@color/aaaaaa"
+                android:textAlignment="textStart"
+                android:paddingStart="10dp" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/arrow"
+            android:text="@string/Butc"
+            android:id="@+id/bt51"
+                android:onClick="Qbtn51"
+            android:textColor="@color/aaaaaa"
+            android:textAlignment="textStart"
+            android:paddingStart="10dp" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/arrow"
+            android:text="@string/Mutst"
+            android:id="@+id/bt52"
+                android:onClick="Qbtn52"
+            android:textColor="@color/aaaaaa"
+            android:textAlignment="textStart"
+            android:paddingStart="10dp" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/arrow"
+            android:text="@string/Kadc"
+            android:id="@+id/bt53"
+                android:onClick="Qbtn53"
+            android:textColor="@color/aaaaaa"
+            android:textAlignment="textStart"
+            android:paddingStart="10dp" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/arrow"
+            android:text="@string/Fisc"
+            android:id="@+id/bt54"
+                android:onClick="Qbtn54"
+            android:textColor="@color/aaaaaa"
+            android:textAlignment="textStart"
+            android:paddingStart="10dp" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/arrow"
+            android:text="@string/Eggc"
+            android:id="@+id/bt55"
+                android:onClick="Qbtn55"
+            android:textColor="@color/aaaaaa"
+            android:textAlignment="textStart"
+            android:paddingStart="10dp" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/arrow"
+            android:text="@string/Chicu"
+            android:id="@+id/bt56"
+                android:onClick="Qbtn56"
+            android:textColor="@color/aaaaaa"
+            android:textAlignment="textStart"
+            android:paddingStart="10dp" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/arrow"
+            android:text="@string/Hanc"
+            android:id="@+id/bt57"
+                android:onClick="Qbtn57"
+            android:textColor="@color/aaaaaa"
+            android:textAlignment="textStart"
+            android:paddingStart="10dp" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/arrow"
+            android:text="@string/Tawc"
+            android:id="@+id/bt58"
+                android:onClick="Qbtn58"
+            android:textColor="@color/aaaaaa"
+            android:textAlignment="textStart"
+            android:paddingStart="10dp" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/arrow"
+            android:text="@string/Murm"
+            android:id="@+id/bt59"
+                android:onClick="Qbtn59"
+            android:textColor="@color/aaaaaa"
+            android:textAlignment="textStart"
+            android:paddingStart="10dp" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/arrow"
+            android:text="@string/Chil"
+            android:id="@+id/bt60"
+                android:onClick="Qbtn60"
+            android:textColor="@color/aaaaaa"
+            android:textAlignment="textStart"
+            android:paddingStart="10dp" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/arrow"
+            android:text="@string/Chima"
+            android:id="@+id/bt61"
+                android:onClick="Qbtn61"
+            android:textColor="@color/aaaaaa"
+            android:textAlignment="textStart"
+            android:paddingStart="10dp" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/arrow"
+            android:text="@string/Mutr"
+            android:id="@+id/bt62"
+                android:onClick="Qbtn62"
+            android:textColor="@color/aaaaaa"
+            android:textAlignment="textStart"
+            android:paddingStart="10dp" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/arrow"
+            android:text="@string/Keem"
+            android:id="@+id/bt63"
+                android:onClick="Qbtn63"
+            android:textColor="@color/aaaaaa"
+            android:textAlignment="textStart"
+            android:paddingStart="10dp" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/arrow"
+            android:text="@string/Mutc"
+            android:id="@+id/bt64"
+                android:onClick="Qbtn64"
+            android:textColor="@color/aaaaaa"
+            android:textAlignment="textStart"
+            android:paddingStart="10dp" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/arrow"
+            android:text="@string/Rogj"
+            android:id="@+id/bt65"
+                android:onClick="Qbtn65"
+            android:textColor="@color/aaaaaa"
+            android:textAlignment="textStart"
+            android:paddingStart="10dp" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/arrow"
+            android:text="@string/Fiscu"
+            android:id="@+id/bt66"
+                android:onClick="Qbtn66"
+            android:textColor="@color/aaaaaa"
+            android:textAlignment="textStart"
+            android:paddingStart="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
